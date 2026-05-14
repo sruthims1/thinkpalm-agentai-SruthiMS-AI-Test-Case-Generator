@@ -1,0 +1,22 @@
+{
+  "name": "ai-test-case-generator",
+  "version": "1.0.0",
+  "description": "Playwright automation tests generated using AI assistance — Agentic AI Batch 2 Assignment",
+  "scripts": {
+    "test": "npx playwright test",
+"test:auth": "npx playwright test auth.spec.ts",
+    "test:accounts": "npx playwright test accounts.spec.ts",
+    "test:transfer": "npx playwright test transfer.spec.ts",
+    "test:billpay": "npx playwright test billpay.spec.ts",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:open": "node node_modules/allure-commandline/bin/allure open allure-report --port 4040",
+    "allure:report": "npm run allure:generate && npm run allure:open",
+    "test:report": "npm run test && npm run allure:report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "allure-playwright": "^3.0.0",
+    "allure-commandline": "^2.27.0",
+    "typescript": "^5.4.5"
+  }
+}

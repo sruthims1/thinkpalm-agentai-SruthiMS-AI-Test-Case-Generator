@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Playwright
+playwright/.auth/
+playwright-report/
+test-results/
+
+# Allure
+allure-results/
+allure-report/
+
+# TypeScript build output
+dist/
+
+# Environment
+.env
