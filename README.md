@@ -91,6 +91,14 @@ npm run test:report
 
 ---
 
+## Allure Report (Committed)
+
+A pre-generated Allure HTML report is committed at [`docs/allure-report/index.html`](docs/allure-report/index.html).
+
+To view it locally, open that file in a browser — or clone the repo and run the tests yourself to regenerate it.
+
+---
+
 ## Test Summary
 
 | Test Case | Type | AC | Expected Outcome |

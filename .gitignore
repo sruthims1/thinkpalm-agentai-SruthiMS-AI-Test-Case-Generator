@@ -6,9 +6,9 @@ playwright/.auth/
 playwright-report/
 test-results/
 
-# Allure
+# Allure (generated at root — docs/allure-report/ is committed)
 allure-results/
-allure-report/
+/allure-report/
 
 # TypeScript build output
 dist/
