@@ -4,7 +4,7 @@
 |-------|---------|
 | **Name** | SRUTHI M S |
 | **Track** | QA/Testing |
-| **Lab** | Lab 3 — AI Test Case Generator |
+| **Lab** | Lab 2 — AI Test Case Generator |
 | **AI Tool** | Claude (claude-sonnet-4-6) |
 
 ---
