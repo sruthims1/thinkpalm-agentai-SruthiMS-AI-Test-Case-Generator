@@ -91,11 +91,11 @@ npm run test:report
 
 ---
 
-## Allure Report (Committed)
+## Allure Report
 
-A pre-generated Allure HTML report is committed at [`docs/allure-report/index.html`](docs/allure-report/index.html).
+Live hosted report: [View Allure Report](https://sruthims1.github.io/thinkpalm-agentai-SruthiMS-AI-Test-Case-Generator/allure-report/)
 
-To view it locally, open that file in a browser — or clone the repo and run the tests yourself to regenerate it.
+A pre-generated Allure HTML report is also committed at [`docs/allure-report/index.html`](docs/allure-report/index.html) for offline viewing.
 
 ---
 
